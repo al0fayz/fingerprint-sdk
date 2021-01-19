@@ -1,0 +1,30 @@
+Ketik Perintah ini di Command Prompt:
+C:\>telnet 192.168.1.201 80
+
+UNTUK BACA LOG DATA, Copy Paste data dibawah ini pada Prompt:
+=============================================================
+
+POST /iWsService HTTP/1.0
+Content-Type: text/xml
+Content-Length: 128
+
+<GetAttLog>
+<ArgComKey xsi:type="xsd:integer">0</ArgComKey>
+<Arg>
+<PIN xsi:type="xsd:integer">All</PIN>
+</Arg>
+</GetAttLog>
+
+
+
+UNTUK CLEAR LOG DATA, Copy Paste data dibawah ini pada prompt:
+==============================================================
+
+POST /iWsService HTTP/1.0
+Content-Type: text/xml
+Content-Length: 126
+
+<ClearData>
+<ArgComKey xsi:type="xsd:integer">0</ArgComKey>
+<Arg><Value xsi:type="xsd:integer">3</Value></Arg>
+</ClearData>

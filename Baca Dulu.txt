@@ -1,0 +1,18 @@
+KETERANGAN TIAP FOLDER:
+
+SOAP Manual.pdf
+berisi manual daftar soap request dan hasil renponsenya.
+
+SOAP-Via-Telnet
+Contoh Pengguna Fitur SOAP mengunakan Tools Sederhana Telnet.
+
+PHP
+Contoh Source Code Program yang dibuat dengan PHP Script
+
+Visual Basic
+Contoh Source Code Program yang dibuat dengan Visual Basic Versi 6.
+
+Visual C++
+Contoh Source Code Program yang dibuat dengan Visual C++ Versi 6.
+
+

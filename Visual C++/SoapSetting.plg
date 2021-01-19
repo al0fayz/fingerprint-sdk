@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SoapSetting - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP230.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/SoapSetting.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"K:\SoapSetting\UserInfo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP230.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP231.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SoapSetting.pdb" /machine:I386 /out:"Release/SoapSetting.exe" 
+.\Release\Date.obj
+.\Release\IPCOMSet.obj
+.\Release\MainFrm.obj
+.\Release\MGrid.obj
+.\Release\MyList.obj
+.\Release\SecondSet.obj
+.\Release\SoapSetting.obj
+.\Release\SoapSettingDoc.obj
+.\Release\SoapSettingView.obj
+.\Release\StdAfx.obj
+.\Release\UserInfo.obj
+.\Release\SoapSetting.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP231.tmp"
+<h3>Output Window</h3>
+Compiling...
+UserInfo.cpp
+K:\SoapSetting\UserInfo.cpp(160) : warning C4715: 'CUserInfo::DoModal' : not all control paths return a value
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP233.tmp" with contents
+[
+/nologo /o"Release/SoapSetting.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Date.sbr
+.\Release\IPCOMSet.sbr
+.\Release\MainFrm.sbr
+.\Release\MGrid.sbr
+.\Release\MyList.sbr
+.\Release\SecondSet.sbr
+.\Release\SoapSetting.sbr
+.\Release\SoapSettingDoc.sbr
+.\Release\SoapSettingView.sbr
+.\Release\UserInfo.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP233.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SoapSetting.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
